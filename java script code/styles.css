@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+button {
+  font: inherit;
+  border: 1px solid rgb(14, 14, 94);
+  color: white;
+  background-color: rgb(14, 14, 94);
+  border-radius: 5px;
+}
+button:focus {
+  outline: none;
+}
+button:hover,
+button:active {
+  background: blue;
+  border-color: blue;
+}
+label,
+input,
+textarea {
+  display: block;
+  margin: 8px 0;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgb(14, 14, 94);
+}
+section {
+  width: 600px;
+  border: 1px solid #ccc;
+  padding: 16px;
+}
